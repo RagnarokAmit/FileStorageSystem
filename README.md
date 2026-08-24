@@ -1,5 +1,21 @@
 # Secure File Storage System
 
+## Database Configuration
+
+Before running the application, update the MySQL configuration in `app.py`.
+
+Replace:
+
+MYSQL_PASSWORD = "YOUR_MYSQL_PASSWORD"
+
+with your local MySQL password.
+
+Example:
+
+MYSQL_PASSWORD = "your_actual_password"
+
+Make sure the MySQL database `file_storage` is created using the provided `database.sql` file.
+
 A simple file storage web application built using Flask and MySQL.
 
 ## Features
